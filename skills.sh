@@ -19,7 +19,7 @@ add_skill() {
 
   (
     echo "Installing ${skill:-default}..."
-
+    set +e
     if [[ -n "$skill" ]]; then
       npx skills add "$url" \
         --skill "$skill" \
@@ -28,8 +28,12 @@ add_skill() {
       npx skills add "$url" \
         --yes
     fi
-
-    echo "✓ ${skill:-done}"
+    local rc=$?
+    if [[ $rc -eq 0 ]]; then
+      echo "✓ ${skill:-done}"
+    else
+      echo "✗ ${skill:-default} failed (skipped)"
+    fi
   ) &
 }
 
