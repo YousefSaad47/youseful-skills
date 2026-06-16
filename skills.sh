@@ -21,13 +21,18 @@ add_skill() {
     echo "Installing ${skill:-default}..."
     set +e
     if [[ -n "$skill" ]]; then
-      npx skills add "$url" \
-        --skill "$skill" \
-        --yes
+      npx skills add "$url" -s "$skill" -y
     else
-      npx skills add "$url" \
-        --yes
+      npx skills add "$url" -y
     fi
+
+    mkdir -p .claude/skills
+    for skill_dir in .agents/skills/*; do
+      if [[ -d "$skill_dir" ]]; then
+        skill_name=$(basename "$skill_dir")
+        ln -sf "$(pwd)/$skill_dir" ".claude/skills/$skill_name"
+      fi
+    done
     local rc=$?
     if [[ $rc -eq 0 ]]; then
       echo "✓ ${skill:-done}"
