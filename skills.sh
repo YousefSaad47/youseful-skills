@@ -43,6 +43,7 @@ add_skill https://github.com/vercel-labs/skills find-skills
 # Browser
 add_skill https://github.com/xixu-me/skills use-my-browser
 add_skill https://github.com/vercel-labs/agent-browser agent-browser
+add_skill https://github.com/browser-use/browser-use browser-use
 
 # Code
 add_skill https://github.com/github/awesome-copilot refactor
