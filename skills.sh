@@ -148,6 +148,11 @@ add_skill https://github.com/giuseppe-trisciuoglio/developer-kit nextjs-code-rev
 add_skill https://github.com/laguagu/claude-code-nextjs-skills nextjs-shadcn
 add_skill https://github.com/vercel/vercel-plugin next-upgrade
 
+# Express.js
+add_skill https://github.com/aj-geddes/useful-ai-prompts nodejs-express-server
+add_skill https://github.com/pluginagentmarketplace/custom-plugin-nodejs express-rest-api
+add_skill https://github.com/mindrally/skills express-typescript
+
 # Docker
 add_skill https://github.com/github/awesome-copilot multi-stage-dockerfile
 add_skill https://github.com/sickn33/antigravity-awesome-skills docker-expert
