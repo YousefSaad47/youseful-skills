@@ -478,6 +478,64 @@ add_skill https://github.com/base/skills
 add_skill https://github.com/denoland/skills
 add_skill https://github.com/sveltejs/ai-tools
 
+# Vue
+add_skill https://github.com/vuejs-ai/skills vue-best-practices
+add_skill https://github.com/vuejs-ai/skills vue-pinia-best-practices
+add_skill https://github.com/vuejs-ai/skills vue-router-best-practices
+
+# Angular
+add_skill https://github.com/analogjs/angular-skills angular-component
+add_skill https://github.com/analogjs/angular-skills angular-signals
+
+# Nuxt
+add_skill https://github.com/onmax/nuxt-skills nuxt
+add_skill https://github.com/onmax/nuxt-skills nuxt-ui
+
+# Go
+add_skill https://github.com/samber/cc-skills-golang golang-code-style
+add_skill https://github.com/samber/cc-skills-golang golang-error-handling
+add_skill https://github.com/samber/cc-skills-golang golang-testing
+
+# Rust
+add_skill https://github.com/wshobson/agents rust-async-patterns
+
+# Java / Kotlin
+add_skill https://github.com/github/awesome-copilot java-springboot
+add_skill https://github.com/github/awesome-copilot kotlin-springboot
+
+# PHP / Laravel
+add_skill https://github.com/jeffallan/claude-skills laravel-specialist
+add_skill https://github.com/jeffallan/claude-skills php-pro
+
+# NestJS
+add_skill https://github.com/kadajett/agent-nestjs-skills nestjs-best-practices
+
+# GraphQL
+add_skill https://github.com/apollographql/skills apollo-client
+add_skill https://github.com/apollographql/skills graphql-schema
+add_skill https://github.com/apollographql/skills graphql-operations
+
+# Swift / iOS
+add_skill https://github.com/emilkowalski/skills write-swift
+add_skill https://github.com/avdlee/swiftui-agent-skill swiftui-expert-skill
+
+# Terraform / Kubernetes
+add_skill https://github.com/hashicorp/agent-skills terraform-style-guide
+add_skill https://github.com/jeffallan/claude-skills kubernetes-specialist
+
+# OpenAPI / Changelog / Diagrams
+add_skill https://github.com/wshobson/agents openapi-spec-generation
+add_skill https://github.com/wshobson/agents changelog-automation
+add_skill https://github.com/spillwavesolutions/design-doc-mermaid design-doc-mermaid
+
+# MCP
+add_skill https://github.com/github/awesome-copilot typescript-mcp-server-generator
+add_skill https://github.com/github/awesome-copilot python-mcp-server-generator
+
+# Game Dev
+add_skill https://github.com/wshobson/agents godot-gdscript-patterns
+add_skill https://github.com/wshobson/agents unity-ecs-patterns
+
 # Other
 add_skill https://github.com/wshobson/agents dependency-upgrade
 
