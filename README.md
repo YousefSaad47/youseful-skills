@@ -6,6 +6,23 @@
 > - Only install the few skills the AI actually needs for the current task.
 > - Installing hundreds of skills wastes tokens, increases context usage, and slows down initial session startup.
 
+## What is in this repo
+
+- `skills.sh` — one-command installer for 300+ curated third-party skills.
+- `skills/` — original skills authored here.
+
+## Original skills
+
+### current-sources
+
+Research before answering instead of relying on training data. Routes each
+question type to the right source, pins the library version, triages
+deprecations, and flags anything unverified.
+
+```bash
+npx skills add yousefsaad47/youseful-skills -s current-sources -g
+```
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/08b038f5-071a-4539-9e96-d835e3cf1704" width="32%" alt="Skill Screenshot 1" />
   <img src="https://github.com/user-attachments/assets/82198436-cb6b-406b-9d73-78e9602bb17b" width="32%" alt="Skill Screenshot 2" />

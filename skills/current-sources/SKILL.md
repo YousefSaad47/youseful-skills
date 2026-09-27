@@ -92,6 +92,21 @@ When you answer from a retrieved source, keep the attribution visible:
 
 The user should be able to tell, per claim, whether it was checked or recalled.
 
+## Example
+
+Question: "How do I validate environment variables in a Next.js 15 app?"
+
+Without this skill: answer from memory with a generic snippet — possibly
+a deprecated API, no version stated.
+
+With this skill:
+1. Check `package.json` — the project is on Next.js 15, so docs must match it.
+2. Search current docs for the validation library's latest API, plus its
+   changelog for deprecations since training.
+3. Answer with the verified pattern, the library version checked, and the
+   source — flagging anything that could not be confirmed rather than
+   filling the gap from memory.
+
 ## Limits — read this honestly
 
 This skill is **opt-in and instruction-based**. It is read when the agent
@@ -105,7 +120,7 @@ means:
 No skill format can enforce that. The only mechanism that persists across
 every session and every request is a standing rule in `AGENTS.md`. If this
 behavior is mandatory rather than preferred, that file is where it belongs —
-see the companion note in the section below.
+see the example below.
 
 ## Pair with a standing rule
 
