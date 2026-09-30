@@ -6,12 +6,24 @@
 > - Only install the few skills the AI actually needs for the current task.
 > - Installing hundreds of skills wastes tokens, increases context usage, and slows down initial session startup.
 
+What bulk-installing via `skills.sh` does to your context window:
+
+| Baseline: tools only · 15.4K (8%) | Minimal skills · 64.4K (32%) | Overloaded · 428.5K (214%) |
+|---|---|---|
+| <img src="https://github.com/user-attachments/assets/08b038f5-071a-4539-9e96-d835e3cf1704" width="100%" /> | <img src="https://github.com/user-attachments/assets/82198436-cb6b-406b-9d73-78e9602bb17b" width="100%" /> | <img src="https://github.com/user-attachments/assets/5807c40a-410b-43ad-951c-8dec9d359685" width="100%" /> |
+
 ## What is in this repo
 
 - `skills.sh` — one-command installer for 300+ curated third-party skills.
 - `skills/` — original skills authored here.
 
 ## Original skills
+
+Install all original skills at once:
+
+```bash
+npx skills add yousefsaad47/youseful-skills -g
+```
 
 ### current-sources
 
@@ -32,9 +44,3 @@ save tokens — full detail only after approval.
 ```bash
 npx skills add yousefsaad47/youseful-skills -s propose-before-edit -g
 ```
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/08b038f5-071a-4539-9e96-d835e3cf1704" width="32%" alt="Skill Screenshot 1" />
-  <img src="https://github.com/user-attachments/assets/82198436-cb6b-406b-9d73-78e9602bb17b" width="32%" alt="Skill Screenshot 2" />
-  <img src="https://github.com/user-attachments/assets/5807c40a-410b-43ad-951c-8dec9d359685" width="32%" alt="Skill Screenshot 3" />
-</div>
