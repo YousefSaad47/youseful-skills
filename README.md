@@ -23,6 +23,16 @@ deprecations, and flags anything unverified.
 npx skills add yousefsaad47/youseful-skills -s current-sources -g
 ```
 
+### propose-before-edit
+
+Show the exact proposed change and wait for explicit approval before writing,
+editing, or running anything that alters state. Proposals stay high-level to
+save tokens — full detail only after approval.
+
+```bash
+npx skills add yousefsaad47/youseful-skills -s propose-before-edit -g
+```
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/08b038f5-071a-4539-9e96-d835e3cf1704" width="32%" alt="Skill Screenshot 1" />
   <img src="https://github.com/user-attachments/assets/82198436-cb6b-406b-9d73-78e9602bb17b" width="32%" alt="Skill Screenshot 2" />
