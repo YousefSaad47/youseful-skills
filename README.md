@@ -44,3 +44,13 @@ save tokens — full detail only after approval.
 ```bash
 npx skills add yousefsaad47/youseful-skills -s propose-before-edit -g
 ```
+
+### prefer-libraries
+
+Prefer well-maintained libraries over hand-rolled utilities. Checks
+`package.json` first, ships a TypeScript mapping table, and never hand-rolls
+crypto.
+
+```bash
+npx skills add yousefsaad47/youseful-skills -s prefer-libraries -g
+```
