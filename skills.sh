@@ -49,6 +49,7 @@ add_skill https://github.com/yousefsaad47/youseful-skills current-sources
 add_skill https://github.com/yousefsaad47/youseful-skills propose-before-edit
 add_skill https://github.com/yousefsaad47/youseful-skills prefer-libraries
 add_skill https://github.com/yousefsaad47/youseful-skills stack-advisor
+add_skill https://github.com/yousefsaad47/youseful-skills follow-standards
 
 # Browser
 add_skill https://github.com/xixu-me/skills use-my-browser
