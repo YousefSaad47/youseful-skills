@@ -84,3 +84,9 @@ With this skill:
 2. Shortlist maintained, MIT-licensed, typed candidates; install the one whose
    relative-time formatter replaces ~40 lines of custom calendar math.
 3. Use it — DST-tested by its maintainers, zero custom code.
+
+## Red flags
+
+- `Math.random` anywhere near IDs, tokens, or security boundaries
+- Dividing by `86400000` (or any fixed millis-per-day constant) in date logic
+- Recommending a library without checking `package.json` first
