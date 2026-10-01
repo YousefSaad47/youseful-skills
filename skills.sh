@@ -48,6 +48,7 @@ add_skill https://github.com/vercel-labs/skills find-skills
 add_skill https://github.com/yousefsaad47/youseful-skills current-sources
 add_skill https://github.com/yousefsaad47/youseful-skills propose-before-edit
 add_skill https://github.com/yousefsaad47/youseful-skills prefer-libraries
+add_skill https://github.com/yousefsaad47/youseful-skills stack-advisor
 
 # Browser
 add_skill https://github.com/xixu-me/skills use-my-browser
@@ -156,6 +157,9 @@ add_skill https://github.com/aj-geddes/useful-ai-prompts nodejs-express-server
 add_skill https://github.com/pluginagentmarketplace/custom-plugin-nodejs express-rest-api
 add_skill https://github.com/mindrally/skills express-typescript
 
+# Hono
+add_skill https://github.com/yusukebe/hono-skill hono
+
 # Docker
 add_skill https://github.com/github/awesome-copilot multi-stage-dockerfile
 add_skill https://github.com/sickn33/antigravity-awesome-skills docker-expert
@@ -219,6 +223,7 @@ add_skill https://github.com/better-auth/skills email-and-password-best-practice
 add_skill https://github.com/better-auth/skills two-factor-authentication-best-practices
 add_skill https://github.com/vercel-labs/portless oauth
 add_skill https://github.com/wshobson/agents auth-implementation-patterns
+add_skill https://github.com/workos/skills workos
 
 # Clerk
 add_skill https://github.com/clerk/skills clerk
@@ -243,6 +248,7 @@ add_skill https://github.com/github/awesome-copilot update-oo-component-document
 add_skill https://github.com/github/awesome-copilot create-oo-component-documentation
 add_skill https://github.com/addyosmani/agent-skills documentation-and-adrs
 add_skill https://github.com/github/awesome-copilot documentation-writer
+add_skill https://github.com/mintlify/docs mintlify
 
 # Deployment
 add_skill https://github.com/railwayapp/railway-skills deployment
@@ -296,6 +302,7 @@ add_skill https://github.com/0xbigboss/claude-code python-best-practices
 add_skill https://github.com/jiatastic/open-python-skills python-backend
 add_skill https://github.com/astral-sh/claude-code-plugins uv
 add_skill https://github.com/wshobson/agents uv-package-manager
+add_skill https://github.com/affaan-m/ecc django-patterns
 
 # FastAPI
 add_skill https://github.com/fastapi/fastapi fastapi
@@ -381,6 +388,9 @@ add_skill https://github.com/leonxlnx/taste-skill brandkit
 add_skill https://github.com/pproenca/dot-skills react-hook-form
 add_skill https://github.com/jezweb/claude-skills react-hook-form-zod
 
+# Editors
+add_skill https://github.com/ueberdosis/tiptap tiptap
+
 # Internationalization
 add_skill https://github.com/mindrally/skills internationalization-i18n
 
@@ -437,12 +447,16 @@ add_skill https://github.com/medusajs/medusa-agent-skills
 add_skill https://github.com/wordpress/agent-skills
 add_skill https://github.com/makenotion/skills
 add_skill https://github.com/contentful/skills
+add_skill https://github.com/payloadcms/payload payload
 
 # Databases
 add_skill https://github.com/neondatabase/agent-skills
 add_skill https://github.com/redis/agent-skills
 add_skill https://github.com/planetscale/database-skills
 add_skill https://github.com/clickhouse/agent-skills
+add_skill https://github.com/upstash/skills upstash-redis-js
+add_skill https://github.com/upstash/skills upstash-ratelimit-js
+add_skill https://github.com/qdrant/skills qdrant-clients-sdk
 
 # Email & Communication
 add_skill https://github.com/resend/resend-skills
@@ -468,6 +482,7 @@ add_skill https://github.com/dagster-io/skills
 add_skill https://github.com/encoredev/skills
 add_skill https://github.com/streamlit/agent-skills
 add_skill https://github.com/dbt-labs/dbt-agent-skills
+add_skill https://github.com/get-convex/agent-skills convex
 
 # Security & Code Quality
 add_skill https://github.com/semgrep/skills
