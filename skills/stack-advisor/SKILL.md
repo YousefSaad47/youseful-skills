@@ -1,6 +1,6 @@
 ---
 name: stack-advisor
-description: Recommend libs, tools, and stack for building a project idea. Use when the user asks what to build with, which library to pick, or how to stack an app — gathers the project shape briefly, verifies current versions and docs, decides library-vs-hand-roll per need, then proposes the stack compactly and waits for approval. Triggers on "what stack should I use", "what library for", "how should I build", "pick the stack", "which tools". Composes current-sources, prefer-libraries, and propose-before-edit — load all three when this triggers.
+description: Use when the user asks what to build with, which library to pick, or how to stack an app. Triggers on "what stack should I use", "what library for", "how should I build", "pick the stack", "which tools", greenfield projects, or unfamiliar stacks.
 ---
 
 # Stack Advisor

@@ -1,6 +1,6 @@
 ---
 name: propose-before-edit
-description: Show the user the exact proposed change and wait for explicit approval before writing, editing, or running anything that alters state. Use this whenever a task involves touching files or running commands that change anything — even when the change seems trivial, obvious, or obviously what the user wants. Do not begin editing on your own initiative; propose first, then wait. Also use it when the user says things like "show me first", "let me approve it", "don't edit yet", or "propose before you change".
+description: Use when a task involves writing, editing, or running anything that alters state — even changes that seem trivial, obvious, or obviously wanted. Triggers when approval is needed before acting, and on phrases like "show me first", "let me approve it", "don't edit yet", or "propose before you change".
 ---
 
 # Propose Before Edit

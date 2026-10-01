@@ -1,6 +1,6 @@
 ---
 name: current-sources
-description: Researches before answering instead of relying on training data. Use for ANY question about library APIs, framework usage, SDK methods, config options, syntax, deprecation status, current versions, or "latest" anything — and for any factual question where being wrong is costly. Queries BOTH official documentation AND the live web. Triggers on "how do I use X", "what is the latest", "is X deprecated", "current version of", "X vs Y", import statements, error messages, API references, CLI flags, environment variables, release notes, migration guides, or any question whose answer may have changed since training.
+description: Use when answering questions about library APIs, framework usage, SDK methods, config options, syntax, deprecation status, current versions, or "latest" anything — and any factual question where being wrong is costly. Triggers on "how do I use X", "what is the latest", "is X deprecated", "current version of", "X vs Y", import statements, error messages, API references, CLI flags, environment variables, release notes, migration guides, or anything that may have changed since training.
 ---
 
 # Current Sources
