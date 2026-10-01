@@ -54,3 +54,21 @@ crypto.
 ```bash
 npx skills add yousefsaad47/youseful-skills -s prefer-libraries -g
 ```
+
+### stack-advisor
+
+Recommend libs, tools, and stack for building a project idea. Verifies
+versions, decides library-vs-hand-roll per need, and proposes compactly.
+
+```bash
+npx skills add yousefsaad47/youseful-skills -s stack-advisor -g
+```
+
+### follow-standards
+
+Use the correct standard for dates, times, currencies, identifiers, HTTP,
+authentication, serialization, and APIs — instead of inventing custom formats.
+
+```bash
+npx skills add yousefsaad47/youseful-skills -s follow-standards -g
+```
