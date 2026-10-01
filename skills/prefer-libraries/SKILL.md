@@ -1,6 +1,6 @@
 ---
 name: prefer-libraries
-description: Prefer well-maintained libraries over hand-rolled utilities. Use this before writing any helper, parser, validator, date or format logic, or algorithm — check whether a library already solves it first. Triggers on writing utility functions, date/time handling, validation schemas, parsing, ID generation, logging setup, async helpers, HTTP wrappers, or any "should I write this myself" decision. Hand-roll only trivial local helpers under ~10 lines; never hand-roll anything cryptographic or security-sensitive.
+description: Use when writing helpers, parsers, validators, date or format logic, or algorithms — wherever a maintained library might already solve the problem. Triggers on writing utility functions, date/time handling, validation schemas, parsing, ID generation, logging setup, async helpers, HTTP wrappers, cryptographic or security-sensitive code, or any "should I write this myself" decision.
 ---
 
 # Prefer Libraries
