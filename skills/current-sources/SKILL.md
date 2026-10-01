@@ -43,6 +43,8 @@ A doc page for the wrong version is a confidently wrong answer.
 
 1. Find the installed version — check `package.json`, lockfile, `go.mod`,
    `pyproject.toml`, `Gemfile.lock`, or ask.
+   For *latest-available* versions, query the registry (`npm view <pkg> version`,
+   PyPI JSON API), never docs pages — docs describe APIs, registries report versions.
 2. Request docs for that version specifically.
 3. If the installed version is older than the docs you found, the docs are
    describing an API that may not exist in the project. Say so.
@@ -136,3 +138,8 @@ documentation for how something works, and the web for current status.
 State the version and date of what you found. Never answer version-specific
 questions from memory, and flag anything you could not verify.
 ```
+
+## Red flags
+
+- Answering a version-sensitive question with zero lookups performed
+- Stating version numbers without naming the registry or docs page they came from

@@ -99,3 +99,20 @@ are where unwanted changes hide.
 Ask. Say what you're about to do and wait. The cost of a redundant question is
 seconds. The cost of an unwanted edit is the user's time, their attention, and
 their trust in the rest of your output.
+
+## Rationalizations — and why they fail
+
+Observed in testing; each one bypassed the protocol in a real run:
+
+| What happened | Reality |
+|---|---|
+| Said nothing, just edited | The protocol triggers on the act, not the announcement. No message means no proposal happened. |
+| "Don't bother showing me" | A turn-scoped waiver — obey this turn only, never carry it forward. |
+| "Too trivial for the routine" | Trivial-seeming changes are where unwanted edits hide; a one-line proposal is cheaper than the round trip it skips. |
+
+## Red flags — stop and propose
+
+- About to edit and nothing has been shown yet
+- A "just this once" waiver leaking into the next turn
+- Cleanups or drive-by edits not in the proposal
+- Approval inferred from silence, thumbs-up, or "looks good"
